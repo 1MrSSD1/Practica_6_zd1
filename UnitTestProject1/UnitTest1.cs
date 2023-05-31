@@ -14,5 +14,21 @@ namespace UnitTestProject1
             int x = a + b;
             Assert.AreEqual(15, x);
         }
+        [TestMethod]
+        public void TestMethod1()
+        {
+            int a = 15;
+            int b = 5;
+            int x = a + b;
+            Assert.AreEqual(20, x);
+        }
+        [TestMethod]
+        public void TestMethod1()
+        {
+            int a = 20;
+            int b = 5;
+            int x = a - b;
+            Assert.AreEqual(15, x);
+        }
     }
 }
